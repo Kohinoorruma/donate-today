@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* Banner-part starts */
+
 .donate-banner {
     background-image: url(images/donation.jpg);
     background-repeat: no-repeat;
@@ -37,6 +39,8 @@ body {
     border-radius: 5px;
 
 }
+
+/*Amount-part starts */
 
 .text-part-two {
     text-align: center;
@@ -92,6 +96,8 @@ body {
     margin-bottom: 150px;
 }
 
+/* Donate-part starts */
+
 .donate-plan {
     display: flex;
     justify-content: center;
@@ -124,7 +130,9 @@ body {
     color: gray;
 }
 
-.buying-product {
+/* Business-part starts */
+
+#buying-product {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,6 +151,8 @@ body {
     color: gray;
     padding-bottom: 25px;
 }
+
+/* Updates-part starts */
 
 .get-updates {
     text-align: center;
@@ -170,7 +180,8 @@ form {
 }
 
 form input {
-    padding: 10px 80px;
+    width: 280px;
+    height: 33px;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -184,6 +195,8 @@ form button {
     border: none;
     border-radius: 5px;
 }
+
+/* Footer-part starts */
 
 footer {
     height: 200px;
@@ -201,7 +214,7 @@ footer p {
     color: white;
 }
 
-footer span {
+footer .footer-part {
     color: darkcyan;
     font-size: 20px;
 }
