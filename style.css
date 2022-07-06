@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.donate-banner {
+    background-image: url(images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 150px;
+
+}
+
+.text-part {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.text-part h1 {
+    color: chocolate;
+    font-size: 60px;
+
+}
+
+.text-part p {
+    color: rgb(251, 250, 250);
+    padding-bottom: 20px;
+
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px 20px;
+    border-radius: 5px;
+
+}
+
+.text-part-two {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.text-part-two h1 {
+    font-size: 40px;
+
+}
+
+.text-part-two p {
+    color: gray;
+}
+
+.donate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.part-of-donate {
+    padding: 10px 40px;
+    margin-left: 2%;
+    border: 1px solid rgb(216, 122, 141);
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+.part-of-donate h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.amount {
+    text-align: center;
+}
+
+.amount p {
+    color: gray;
+    font-size: 20px;
+}
+
+.border {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    background-color: blanchedalmond;
+    margin-left: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+.card img {
+    font-size: 40px;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card p {
+    color: gray;
+}
+
+.buying-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.business-area {
+    margin-left: 5%;
+}
+
+.business-area h1 {
+    font-size: 40px;
+}
+
+.business-area p {
+    color: gray;
+    padding-bottom: 25px;
+}
+
+.get-updates {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-updates h1 {
+    font-size: 40px;
+}
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+form {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+    border-radius: 3px;
+}
+
+form input {
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: azure;
+}
+
+form button {
+    padding: 10px 30px;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    height: 200px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+footer h1 {
+    padding-top: 50px;
+    font-size: 40px;
+    color: darkorange;
+}
+
+footer p {
+    color: white;
+}
+
+footer span {
+    color: darkcyan;
+    font-size: 20px;
+}
